@@ -6,15 +6,47 @@
     <!-- DaisyUi link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Fontawsome link -->
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font Awsome -->
+    <script src="https://kit.fontawesome.com/9529930294.js" crossorigin="anonymous"></script>
 
-     <!-- Tailwind link -->
-
-     <!-- Google fonts -->
-
+    <style>
+        .font-manrope{
+        font-family: "Manrope", sans-serif;
+        }
+    </style>
     <title>Assignment-3</title>
 </head>
-<body>
+<body class="font-manrope ">
+  <!-- nav bar section -->
+    <div class="navbar bg-base-100 mt-1 ">
+        <div class="navbar-start lg:ml-24 ml-1 ">
+        <a class="btn btn-ghost text-3xl font-bold ">
+          <i class="fa-solid fa-arrow-right rounded-full p-2 -rotate-45 bg-lime-400"></i>
+          Rinterio</a>
+      </div>
+        <div class="navbar-center hidden lg:flex sm:hidden mr-32">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>Service</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="text-black  mr-10 lg:hidden md:hidden navbar-end">
+         <a href="#"> <i class="fa-solid fa-bars font-si"></i></a>
+        </div>
+        <div class="navbar-end lg:flex hidden md:flex">
+          <i class="fa-solid fa-magnifying-glass p-5 shadow-lg rounded-full"></i>
+          <i class="fa-solid fa-cart-shopping p-5 shadow-lg rounded-full" ></i>
+          <a class=" btn bg-lime-400 rounded-full mr-36"> Book consult <i class="fa-solid fa-arrow-right rounded-full p-1 -rotate-45 bg-black text-white"></i></a>
+          </div>
+        </div>
+      </div>
     
 </body>
 </html>
